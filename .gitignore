@@ -1,0 +1,48 @@
+# Environment / secrets
+.env
+.env.*
+frontend/.env
+frontend/.env.*
+
+# Env-specific Spring configs
+src/main/resources/dev/
+src/main/resources/uat/
+src/main/resources/prod/
+src/main/resources/test/
+
+# Build artifacts
+target/
+*.jar
+*.war
+*.class
+
+# Frontend build / deps
+frontend/node_modules/
+frontend/dist/
+frontend/.vite/
+frontend/test-results/
+frontend/playwright-report/
+frontend/.playwright-mcp/
+
+# IDE
+.idea/
+.vscode/
+*.iml
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Runtime
+uploads/
+logs/
+*.log
+
+# Heavy / local-only artifacts
+training-videos/
+regression-screenshots/
+regression-test-*/
+screenshots/
+agents/

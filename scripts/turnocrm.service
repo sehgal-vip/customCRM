@@ -1,0 +1,17 @@
+[Unit]
+Description=TurnoCRM Backend
+After=network.target
+
+[Service]
+Type=simple
+User=turnocrm
+WorkingDirectory=/opt/turnocrm
+EnvironmentFile=/opt/turnocrm/.env
+ExecStart=/usr/bin/java -jar /opt/turnocrm/crm.jar --spring.profiles.active=prod
+Restart=on-failure
+RestartSec=10
+StandardOutput=journal
+StandardError=journal
+
+[Install]
+WantedBy=multi-user.target

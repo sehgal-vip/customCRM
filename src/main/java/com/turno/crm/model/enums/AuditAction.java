@@ -1,0 +1,26 @@
+package com.turno.crm.model.enums;
+
+public enum AuditAction {
+    CREATE,
+    UPDATE,
+    STAGE_FORWARD,
+    STAGE_BACKWARD,
+    ARCHIVE,
+    REACTIVATE,
+    COMPLETE,
+    REOPEN,
+    VOID,
+    UNVOID,
+    SUBMIT,
+    APPROVE,
+    REJECT,
+    BACKFILL_REQUEST,
+    BACKFILL_APPROVE,
+    BACKFILL_REJECT,
+    REGRESSION_REQUEST,
+    REGRESSION_APPROVE,
+    REGRESSION_REJECT,
+    DEACTIVATE,
+    DELETE,
+    STATUS_CHANGE
+}
