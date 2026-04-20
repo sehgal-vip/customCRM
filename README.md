@@ -1,6 +1,6 @@
 # customCRM
 
-A sales pipeline CRM for managing leads, deals, tasks, and documents through a multi-stage deal lifecycle. Built as a full-stack reference project with a Spring Boot backend and a React frontend.
+A sales pipeline CRM for managing leads, deals, tasks, and documents through a multi-stage deal lifecycle. Built as a full-stack project with a Spring Boot backend and a React frontend.
 
 ## What it does
 
